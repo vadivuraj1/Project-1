@@ -1,0 +1,317 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice Genarator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ </head>
+ <body>
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="navbar" style="width: 100%; background-color: rgb(241, 241, 241);">
+                        <h4 style="margin-left: 10%; width: 100%;">INVOICE GENERATOR</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9">
+                    <div class="main" style="border-radius: 20px; margin-top: 100px; background-color: rgb(241, 241, 241); width: 100%; height: auto;">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4 class="text-uppercase ml-5 mt-3">invoice</h4>
+                            <div class="row">
+                                <div class="col-md-12 d-flex">
+
+                               
+                            <div class="bg ml-5">
+                            <p class="text-center text-white">logo-click to upload</p>
+                        </div>
+                            <div class="sw2 ms-auto me-3">
+                                <i  class="fa-regular fa-sun fs-3"></i>
+                                <label class="switch fs-3">
+                                    <div class="form-check form-switch">
+                                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+                                        <label class="form-check-label" for="flexSwitchCheckChecked"></label>
+                                        <i class="fa-regular fa-moon fs-0"></i>
+                                  <span class="txt-aling"></span>
+                                </div>  
+                                    </div>
+                                </div>       
+                            </div>      
+                      <div class="bill d-flex">
+                                                           
+                        <div class="col-md-6">
+                            <h4 class="text-capitalize mt-3">bill from</h4>
+                            <div class="inputs mt-4">
+                            <div class="col-auto d-flex gap-0">
+                                <input type="text" readonly class="form-control-plaintext text-secondary" id="staticEmail2" value="Company:">
+                                <input type="password" class="form-control" style="width: 100%; background-color: rgb(211, 211, 211);" id="inputPassword2" placeholder="e.g. Apple in Corportion">
+                              </div>
+                              <div class="col-auto d-flex gap-0 mt-4">
+                                <input type="text" readonly class="form-control-plaintext text-secondary" id="staticEmail2" value="Address:">
+                                <input type="password" class="form-control" style="width: 100%; background-color: rgb(211, 211, 211);" id="inputPassword2" placeholder="e.g. Bennington Street 22">
+                              </div>
+                              <div class="col-auto d-flex gap-0 mt-4">
+                                <input type="text" readonly class="form-control-plaintext text-secondary" id="staticEmail2" value="Zip:">
+                                <input type="password" class="form-control" style="width: 100%; background-color: rgb(211, 211, 211);" id="inputPassword2" placeholder="e.g. 634740">
+                              </div>
+                              <div class="col-auto d-flex gap-0 mt-4">
+                                <input type="text" readonly class="form-control-plaintext text-secondary text-capitalize" id="staticEmail2" value="city:">
+                                <input type="password" class="form-control" style="width: 100%; background-color: rgb(211, 211, 211);" id="inputPassword2" placeholder="e.g. Seattle">
+                              </div>
+                              <div class="col-auto d-flex gap-0 mt-4">
+                                <input type="text" readonly class="form-control-plaintext text-secondary text-capitalize" id="staticEmail2" value="country:">
+                                <input type="password" class="form-control" style="width: 100%; background-color: rgb(211, 211, 211);" id="inputPassword2" placeholder="e.g. USA">
+                              </div>
+                            </div>
+                        </div>
+            
+                        <div class="col-md-6">
+                            <h4 class="text-capitalize mt-3">bill to</h4>
+                            <div class="inputs mt-4">
+                            <div class="col-auto d-flex gap-0">
+                                <input type="text" readonly class="form-control-plaintext text-secondary" id="staticEmail2" value="Company:">
+                                <input type="password" class="form-control" style="width: 100%; background-color: rgb(211, 211, 211);" id="inputPassword2" placeholder="e.g. Apple in Corportion">
+                              </div>
+                              <div class="col-auto d-flex gap-0 mt-4">
+                                <input type="text" readonly class="form-control-plaintext text-secondary" id="staticEmail2" value="Address:">
+                                <input type="password" class="form-control" style="width: 100%; background-color: rgb(211, 211, 211);" id="inputPassword2" placeholder="e.g. Bennington Street 22">
+                              </div>
+                              <div class="col-auto d-flex gap-0 mt-4">
+                                <input type="text" readonly class="form-control-plaintext text-secondary" id="staticEmail2" value="Zip:">
+                                <input type="password" class="form-control" style="width: 100%; background-color: rgb(211, 211, 211);" id="inputPassword2" placeholder="e.g. 634740">
+                              </div>
+                              <div class="col-auto d-flex gap-0 mt-4">
+                                <input type="text" readonly class="form-control-plaintext text-secondary text-capitalize" id="staticEmail2" value="city:">
+                                <input type="password" class="form-control" style="width: 100%; background-color: rgb(211, 211, 211);" id="inputPassword2" placeholder="e.g. Seattle">
+                              </div>
+                              <div class="col-auto d-flex gap-0 mt-4">
+                                <input type="text" readonly class="form-control-plaintext text-secondary text-capitalize" id="staticEmail2" value="country:">
+                                <input type="password" class="form-control" style="width: 100%; background-color: rgb(211, 211, 211);" id="inputPassword2" placeholder="e.g. USA">
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="custom">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h5 class="mt-4 ml-3">Custom fields<span class="ml-2 text-capitalize text-decoration-underline fw-normal">Add custom field</span></h5>
+                                <div class="col-auto d-flex gap-0 mt-5">
+                                    <input type="text" readonly class="form-control-plaintext text-secondary text-capitalize" id="staticEmail2" value="invoice number:">
+                                    <input type="password" class="form-control" style="width: 100%; background-color: rgb(211, 211, 211);" id="inputPassword2" placeholder="Invoice number">
+                                  </div>
+
+                                  <div class="col-auto d-flex gap-0 mt-5">
+                                    <input type="text" readonly class="form-control-plaintext text-secondary text-capitalize" id="staticEmail2" value="issued date:">
+                                    <input type="date" class="form-control" style="width: 100%; background-color: rgb(211, 211, 211);" id="inputPassword2" placeholder="mm/dd/yyyy">
+                                  </div>
+                                  <div class="col-auto d-flex gap-0 mt-5">
+                                    <input type="text" readonly class="form-control-plaintext text-secondary text-capitalize" id="staticEmail2" value="due date:">
+                                    <input type="date" class="form-control" style="width: 100%; background-color: rgb(211, 211, 211);" id="inputPassword2" placeholder="mm/dd/yyyy">
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h6 class="ml-3 mt-5">Item Name</h6>
+                                <input type="text" class="form-control ml-3 text-capitalize" style="width: 90%; background-color: rgb(211, 211, 211);" id="inputPassword2" placeholder="item name">
+                                <textarea class="form-control ml-3 mt-3" id="exampleFormControlTextarea1" rows="3" placeholder="Message" style="width: 90%; background-color: rgb(211, 211, 211);"></textarea>
+                              </div>
+                            <div class="col-md-8">
+                              <div class="box">
+                              <div class="box-1">
+                                <h6 class="ml-3 mt-5">Qty</h6>
+                                <input type="text" class="form-control ml-3 text-capitalize" style="width: 90%; background-color: rgb(211, 211, 211);" id="inputPassword2" placeholder="qty">
+                              </div>
+                              <div class="box-1">
+                                <h6 class="ml-3 mt-5">Rate</h6>
+                                <input type="text" class="form-control ml-3 text-capitalize" style="width: 90%; background-color: rgb(211, 211, 211);" id="inputPassword2" placeholder="rate">
+                              </div>
+                              <div class="box-1">
+                                <h6 class="ml-3 mt-5">Line Total</h6>
+                                <input type="text" class="form-control ml-3 text-capitalize" style="width: 90%; background-color: rgb(211, 211, 211);" id="inputPassword2" placeholder="total">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="note">
+                      <div class="row">
+                        <div class="col-md-6">
+                          
+                            <h6 class="ml-3 mt-5">Notes</h6>
+                            <input type="text" class="form-control ml-3 text-capitalize" style="width: 90%; background-color: rgb(211, 211, 211);" id="inputPassword2">
+                          
+                            <h6 class="ml-3 mt-3">Terms</h6>
+                            <input type="text" class="form-control ml-3 text-capitalize" style="width: 90%; background-color: rgb(211, 211, 211);" id="inputPassword2">
+                        </div>
+
+                        <div class="col-md-6">
+                          <div class="t-sw d-flex" style="gap: 40px;">
+                          <div class="sw">
+                          <div class="form-check form-switch mt-5 fs-2">
+                            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+                          </div>
+                          <p class="mt-4 text-dark fw-normal text-capitalize">discount</p> 
+                        </div>
+                        <div class="sw">
+                          <div class="form-check form-switch mt-5 fs-2">
+                            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+                          </div>
+                          <p class="mt-4 text-dark fw-normal text-capitalize text-center">tax</p> 
+                        </div>
+                        <div class="sw">
+                          <div class="form-check form-switch mt-5 fs-2">
+                            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+                          </div>
+                          <p class="mt-4 text-dark fw-normal text-capitalize">shipping</p> 
+                        </div>
+                        </div>
+                        <div class="d-flex mt-0 ml-3">
+                        <input type="text" class="form-control-plaintext text-dark fw-bold fs-4 text-capitalize" id="staticEmail2" value="Sub Total">
+                        <input type="text" class="form-control-plaintext text-dark fw-bold fs-4 text-uppercase" id="staticEmail2" value="EUR10.00">
+                      </div>
+                      <div class="col-auto d-flex mt-1" style="border-bottom: solid gray 1px; padding-bottom: 10px;">
+                        <input type="text" readonly class="form-control-plaintext text-secondary text-capitalize" id="staticEmail2" value="Shipping">
+                        <input type="password" class="form-control" style="width: 100%; background-color: rgb(211, 211, 211);" id="inputPassword2" placeholder="EUR">
+                      </div>
+                      <div class="d-flex mt-3 ml-3">
+                        <input type="text" class="form-control-plaintext text-dark fs-5 text-capitalize" id="staticEmail2" value="Total amount">
+                        <input type="text" class="form-control-plaintext text-dark fw-bold fs-5 text-uppercase" id="staticEmail2" value="EUR10">
+                      </div>
+                      </div>
+                         </div>
+                    </div>
+                        </div>
+                </div>
+
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="main-2">
+                        <div class="row">
+                          <div class="col-md-12">
+                                                  
+                          <div class="plus text-center text-capitalize fs-5 fw-bold mt-5" style="width: 70%; padding: 10px; margin: 0 auto; background-color: rgb(255, 255, 255);border-radius: 10px;">
+                           <i class="fa-solid fa-plus"></i> new invoice
+                            </div>
+                             <div class="save text-center text-capitalize fs-5 fw-bold mt-3 text-white" style="width: 70%; padding: 10px; background-color: rgb(241, 96, 44); margin: 0 auto; border-radius: 10px;">
+                           <i class="fa-solid fa-folder"></i> save invoice
+                            </div>
+
+                            <div class="pdf text-center text-capitalize fw-bold mt-3 text-white" style="width: 70%; padding: 10px; background-color: rgb(20, 48, 126); margin: 0 auto; border-radius: 10px;">
+                           <i class="fa-solid fa-file-pdf"></i> Generate PDF Invoice
+                            </div>
+                            <div class="row" style="width: 80%; margin: 0 auto;">
+                              <div class="col-md-6">
+                                <div class="ex text-center text-capitalize fw-bold mt-3 text-white" style="padding: 10px; background-color: rgb(20, 48, 126); border-radius: 10px;">
+                                 export
+                            </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="im text-center text-capitalize fw-bold mt-3 text-white" style="padding: 10px; background-color: rgb(20, 48, 126); border-radius: 10px;">
+                                 import
+                            </div>
+                              </div>
+                            </div>
+                            <div class="plus text-center text-capitalize fs-5 fw-bold mt-3" style="width: 70%; padding: 10px; margin: 0 auto; background-color: rgb(255, 255, 255);border-radius: 10px;">
+                            .Missing a feature ?
+                            </div>
+                           
+                            <label for="exampleFormControlInput1" class="form-label mt-3 ml-5 w-50">Currency</label>
+                             
+                                <select class="form-select" style="width: 70%; margin: 0 auto; border-radius: 10px; background-color: rgb(211, 211, 211);" aria-label="Default select example">
+                                       <option selected>DKK-Danish Krone</option>
+                                       <option value="1">Dominican Peso</option>
+                                       <option value="2">Algerian Dinar</option>
+                                       <option value="3">Egiptian Pound</option>
+                                </select>
+                            <div class="line" style="border-bottom: solid gray 1px; padding-bottom: 20px; width: 70%; margin: 0 auto;"></div>
+                            </div>
+                            <label for="exampleFormControlInput1" class="form-label mt-3 ml-5 w-50">Saved Invoice</label>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInputDisabled" style="width: 70%; margin: 0 auto; background-color: rgb(211, 211, 211);" placeholder="name@example.com" disabled>
+                                <label for="floatingInputDisabled" style="margin-left: 20%;">No Saved Invoice Found.</label>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                
+            
+        <div class="container">
+          <div class="row-12">
+            <div class="col-md-12">
+              <div class="main-3" style="border-radius: 20px; margin-top: 100px; background-color: rgb(241, 241, 241); width: 100%; height: auto;">
+              <p class="w-50 text-dark" style="text-align: justify; margin: 0 auto; padding-top: 20px;">You want to run your business running smoothly, right? Then you must keep your bills updated. A free invoice generator can be helpful in this situation.</p>
+              <p class="w-50 text-dark mt-5" style="text-align: justify; margin: 0 auto;">This invoice generator is free and privacy-based. Here are the features offered to you:</p>
+              <div class="point w-50 text-dark mt-2"style="text-align: justify; margin: 0 auto;">
+                <li><span class="fw-bold text-dark">Define Sender and Recipient: </span>
+<p class="mt-3">The invoice generator allows users to input their information as the sender and recipient effortlessly. All crucial fields are included: Name, Address, City, and Country. If you need additional information like VAT number, email, etc., you can use custom fields for this.</p>
+                </li>
+                <li><span class="fw-bold text-dark">Invoice Date and Due Date:</span>
+<p class="mt-3">Users can set the invoice and due dates, ensuring clarity and timeliness in payment expectations. This function helps with better money management and makes it less likely that payments will be late (hopefully :).</p>
+                </li>
+                <li><span class="fw-bold text-dark">Local Storage and Privacy:</span>
+<p class="mt-3">Data privacy is paramount, and this invoice generator addresses this concern by saving the data in local storage. Users can confidently create and manage invoices, knowing their information is kept secure.</p>
+                </li>
+                <li><span class="fw-bold text-dark">Import and Export Support:</span>
+<p class="mt-3">The tool supports importing and exporting invoices in a simple text file format, making it convenient to transfer invoice data across platforms or keep backups of essential records.</p>
+                </li>
+                <li><span class="fw-bold text-dark">Custom Fields and Notes:</span>
+<p class="mt-3">Users can include custom fields like VAT, bank information, and other relevant details. Additionally, fields for notes and terms allow for clear communication and additional information in the invoice.</p>
+                </li>
+                <li><span class="fw-bold text-dark">Discounts, Taxes, and Shipping Prices:</span>
+<p class="mt-3">This invoice generator offers a complete invoicing solution by supporting shipping costs, taxes, and discounts. Both percentage and amount are supported.</p>
+                </li>
+                <li><span class="fw-bold text-dark">Local Save and Load Functionality:</span>
+<p class="mt-3">By enabling users to save and load their invoices locally, the solution improves accessibility and gradually makes effective invoice administration easier.</p>
+                </li>
+                <li><span class="fw-bold text-dark">Multi-Currency Support:</span>
+<p class="mt-3">I included all world currencies to ensure that users from all over the world can utilize the tool. Now it's a flexible and universally applicable billing solution.</p>
+                </li>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+    </main>
+    <footer>
+      <div class="container-fluid mt-5" style="width: 100%; height: auto; background-color: rgb(241, 241, 241);">
+        <div class="row">
+          <div class="col-md-6 text-center">
+            <p style="margin-top: 20px;"><span class="fw-bold fs-5">Invoice Generator</span>|@ 2023 by csaba Kissi</p>
+          </div>
+          <div class="col-md-6 text-center mt-3">
+            <i class="fa-brands fa-github fs-1"></i>
+            <i class="fa-brands fa-twitter fs-1 ml-5"></i>
+            <i class="fa-solid fa-globe fs-1 ml-5"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>  
+ </body>
+ </html>
